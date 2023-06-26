@@ -1,0 +1,19 @@
+.card {
+  width: var(--s-card);
+  height: 100%;
+}
+.loc-item {
+  cursor: pointer;
+}
+.loc-item:hover {
+  text-decoration: underline;
+  color: var(--green-700);
+  font-weight: 500;
+}
+.loc-item-text {
+  color: #40663c80;
+}
+.loc-item-text:hover {
+  color: var(--green-700);
+  font-weight: 500;
+}

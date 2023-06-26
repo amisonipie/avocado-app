@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --green-100: #f1f5e4;
+  --green-300: #dce7ba;
+  --green-500: #9fbf3b;
+  --green-700: #40663c;
+  --green-900: #2a672a;
+  --red-900: #bb2006;
+  --gray: #c4c4c4;
+  --s-card: 300px;
+  --m-card: 335px;
+  --l-card: 450px;
+  --xl-card: 500px;
+  --2xl-card: 550px;
+  --3xl-card: 600px;
+  --4xl-card: 700px;
+  --5xl-card: 800px;
+  --6xl-card: 900px;
+  --def-border-radius: 6px;
+  --def-card-padding: 1.5rem;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  background-color: var(--green-100) !important;
+  /* font-family: Encode Sans Condensed, sans-serif; */
+}
+body {
+  overflow-y: scroll;
+}
+a {
+  color: var(--green-700);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--green-900);
+  text-decoration: underline;
+}
+* {
+  box-sizing: border-box;
+}
+.m-1 {
+  margin: 10px;
+}
+.mt-1 {
+  margin-top: 1rem;
+}
+.mt-2 {
+  margin-top: 2rem;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+.mt-4 {
+  margin-top: 4rem;
+}
+.mt-5 {
+  margin-top: 5rem;
+}
+.mb-1 {
+  margin-bottom: 1rem;
+}
+.mb-2 {
+  margin-bottom: 2rem;
+}
+.mb-3 {
+  margin-bottom: 3rem;
+}
+.mb-4 {
+  margin-bottom: 4rem;
+}
+.mb-5 {
+  margin-bottom: 5rem;
+}
+.pt-0 {
+  padding-top: 0px;
+}
+
+.title,
+.breadcrumbs-prev,
+.breadcrumbs-current {
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 31.25px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: var(--green-900);
+  margin-bottom: 1rem;
+}
+.subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+  /* color: #000000; */
+}
+.icon-spacing {
+  justify-content: flex-end;
+  margin-right: 5px;
+  min-width: unset;
+}
+.fade {
+  color: rgba(64, 102, 60, 0.5);
+}
+.opacity-5 {
+  opacity: 0.5;
+}
+.breadcrumbs-prev,
+.breadcrumbs-current {
+  margin: 0;
+  line-height: 0px;
+}
+.card-header {
+  padding-bottom: 0px;
+  align-items: flex-start;
+}
+.card-title {
+  font-weight: 700;
+  line-height: 25px;
+  color: var(--green-700);
+  font-size: 20px;
+  margin-bottom: 0.2rem;
+}
+.card-sub-title {
+  line-height: 23px;
+  font-size: 1rem;
+}
+.header-top {
+  margin-top: 16px;
+  margin-bottom: 36px;
+}

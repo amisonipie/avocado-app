@@ -1,0 +1,59 @@
+.card {
+  border-radius: 6px;
+}
+.locCardTitle {
+  font-weight: 700;
+  line-height: 25px;
+  color: var(--green-700);
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+.locCardSubTitle {
+  line-height: 23px;
+  font-size: 1rem;
+}
+.card-item {
+  padding-left: 12px;
+  cursor: pointer;
+}
+.card-item:hover {
+  text-decoration: underline;
+  text-decoration-color: var(--green-500);
+}
+.locCardItemIcon {
+  color: var(--green-500);
+}
+.card-item-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.card-action-title {
+  display: flex;
+  font-weight: 500;
+  line-height: 25px;
+  color: var(--green-500);
+  font-size: 1rem;
+  padding-bottom: 15px;
+}
+.list-space {
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.card-action {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: -10px;
+}
+
+.card-title {
+  font-weight: 700;
+  line-height: 25px;
+  color: var(--green-700);
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}

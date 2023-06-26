@@ -1,0 +1,23 @@
+.card-1 {
+  flex: 1;
+}
+.card-2 {
+  flex: 1;
+}
+.upload-icon {
+  height: 180px;
+  cursor: pointer;
+  background: gainsboro;
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+.banner-title {
+  color: var(--green-700);
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.action-btn {
+  font-size: 18px;
+}

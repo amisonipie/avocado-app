@@ -1,0 +1,9 @@
+.list-item {
+  padding-left: 2rem;
+}
+.list-item.active {
+  border-left: 5px solid var(--green-500);
+}
+.list-item-text:hover {
+  font-weight: 800;
+}

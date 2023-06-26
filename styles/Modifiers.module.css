@@ -1,0 +1,114 @@
+.dialog-appbar {
+  position: "relative";
+  background-color: #ffffff;
+  padding: 0rem 5rem;
+}
+.dialog-card-header {
+  padding-bottom: 0;
+}
+.dialog-card-content {
+  padding-top: 0;
+}
+.dialog-content {
+  background-color: var(--green-300);
+  padding: 1rem 6.5rem;
+}
+.dialog-content-center{
+  text-align: -webkit-center !important;
+}
+.card-content-center{
+  padding: 35px !important;
+}
+.card-1 {
+  width: var(--l-card);
+}
+.card-2,
+.card-3 {
+  width: var(--xl-card);
+}
+.dialog-card-title {
+  font-weight: 700;
+  line-height: 25px;
+  color: var(--green-700);
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+
+.cat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.dialog-bg {
+  background-color: #dce7ba;
+}
+.action-bg {
+  background-color: rgba(64, 102, 60, 1);
+}
+.dialog-card-title {
+  font-weight: 700;
+  line-height: 25px;
+  color: var(--green-700);
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+}
+.text-with-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-layout {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.drawer-content-card {
+  width: 485px;
+  position: absolute;
+  top: 50px;
+  right: 0px;
+}
+
+.drawer-content-body {
+  padding: 20px 40px 32px 40px;
+}
+
+.divider {
+  width: 93%;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+.grid-item-center {
+  place-content: center;
+  gap: 10px;
+}
+
+.drawer-close-btn {
+  position: absolute;
+  top: 50px;
+  right: 480px;
+  color: white;
+}
+
+.drawer-close-icon {
+  font-size: 40px;
+}
+
+.modal-close-btn {
+  position: absolute;
+  right: -50px;
+  top: -5px;
+}
+
+.btn-add-modifier {
+  height: 86px;
+  background-color: #40663c;
+}
+
+.list-item {
+  height: 104px;
+  background-color: white;
+  cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.card {
+  width: var(--m-card);
+  height: 100%;
+}
+.card-content {
+  margin-bottom: 5rem;
+  padding: var(--def-card-padding);
+  padding-top: 0px;
+}
+.card-action-title {
+  display: flex;
+  font-weight: 500;
+  line-height: 25px;
+  color: var(--green-500);
+  font-size: 1rem;
+}
+.card-list-item {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.card-action {
+  padding: 0px;
+}

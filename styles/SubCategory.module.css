@@ -1,0 +1,38 @@
+.dialog-appbar {
+  position: "relative";
+  background-color: #ffffff;
+  padding: 0rem 5rem;
+}
+.dialog-card-header {
+  padding-bottom: 0;
+}
+.dialog-card-content {
+  padding-top: 0;
+}
+.dialog-content {
+  background-color: var(--green-300);
+  padding: 1rem 6.5rem;
+}
+.card-1 {
+  width: var(--l-card);
+}
+.card-2,
+.card-3 {
+  width: var(--xl-card);
+}
+.dialog-card-title {
+  font-weight: 700;
+  line-height: 25px;
+  color: var(--green-700);
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  font-size: 20px;
+}
+.modal-close-btn {
+  position: absolute;
+  right: -50px;
+  top: -5px;
+}
+.modal-btn {
+  color: black;
+}
